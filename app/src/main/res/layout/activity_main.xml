@@ -26,6 +26,7 @@
                 android:src="@drawable/pixel_google" />
 
             <TextView
+                style="@style/TextContent.Small.White"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
@@ -42,28 +43,23 @@
         </FrameLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Black"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
             android:text="@string/_375"
-            android:textColor="@android:color/black"
             android:textSize="32sp" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/stock_limit"
-            android:textSize="12sp" />
+            android:text="@string/stock_limit" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
@@ -93,22 +89,15 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:layout_marginEnd="16dp"
-                    android:text="@string/display"
-                    android:textSize="14sp" />
+                    android:text="@string/display" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:layout_marginEnd="16dp"
                     android:layout_weight="1"
-                    android:text="@string/content_specs_display"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp" />
-
-
+                    android:text="@string/content_specs_display" />
             </TableRow>
 
             <TableRow
@@ -117,20 +106,15 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:layout_marginEnd="16dp"
-                    android:text="@string/size"
-                    android:textSize="14sp" />
+                    android:text="@string/size" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:layout_marginEnd="16dp"
                     android:layout_weight="1"
-                    android:text="@string/content_specs_size"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:text="@string/content_specs_size" />
             </TableRow>
 
             <TableRow
@@ -139,20 +123,15 @@
                 android:layout_marginBottom="8dp">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:layout_marginEnd="16dp"
-                    android:text="@string/battery"
-                    android:textSize="14sp" />
+                    android:text="@string/battery" />
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:layout_marginEnd="16dp"
                     android:layout_weight="1"
-                    android:text="@string/content_specs_battery"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp" />
+                    android:text="@string/content_specs_battery" />
             </TableRow>
         </TableLayout>
 
@@ -190,8 +169,7 @@
         </RelativeLayout>
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/ButtonGeneral"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
